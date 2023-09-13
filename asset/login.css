@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the login and register forms */
+.login-form, .register-form {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.login-f{
+    border: 1px solid #ccc;
+}
+
+.login-form h1, .register-form h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.login-form form, .register-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form label, .register-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.login-form input, .register-form input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button, .register-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-form .register-form a .login{
+    text-decoration: none;
+}
+.login{
+    text-decoration: none;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20%;
+    margin-bottom: 0;
+}
