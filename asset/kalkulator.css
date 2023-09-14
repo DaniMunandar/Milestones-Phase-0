@@ -68,6 +68,10 @@ nav ul li a {
     cursor: pointer;
 }
 
+.calculator button:hover{
+    background-color: #555;
+}
+
 /* Style the footer */
 .footer {
     background-color: #333;
